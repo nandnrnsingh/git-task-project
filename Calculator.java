@@ -23,4 +23,9 @@ public class Calculator {
         System.out.println("This is add method for 2 params");
         return a + b;
     }
+    
+    public int add(int a, int b, int c, int d) {
+        System.out.println("This is add method for 3 params");
+        return a + b + c;
+    }
 }
